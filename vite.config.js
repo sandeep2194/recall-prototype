@@ -4,5 +4,15 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
   base: "./",
+  build: {
+    rollupOptions: {
+      output: {
+        format: "iife",
+        inlineDynamicImports: true,
+        entryFileNames: "assets/[name].js",
+        assetFileNames: "assets/[name].[ext]",
+      },
+    },
+  },
   server: { host: "127.0.0.1", port: 5173, open: true },
 });
