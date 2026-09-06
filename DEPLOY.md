@@ -33,11 +33,12 @@ Pages nor R2 — passing the revivotech token explicitly is not optional.
 ## Access
 
 Zero Trust org `sandeep2194.cloudflareaccess.com`. One application,
-`Recall prototype`, one allow policy naming three addresses:
+`Recall prototype`, one allow policy naming four addresses:
 
     sandeepcn998@gmail.com
     seyon31@gmail.com
     skyblue_lankan@hotmail.com
+    krishnnas@outlook.com
 
 Anyone else gets Cloudflare's sign-in page and never reaches the app — verified
 by requesting the site unauthenticated and confirming the redirect to
